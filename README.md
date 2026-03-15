@@ -35,6 +35,12 @@ The test runs in the browser, shows questions one by one, calculates score, and 
 - GitHub (5 marks): 20+ commits (add more small ones if needed, like fixes).
 
 ## Screenshots
-(You can add screenshots here if you want extra polish – take photos of the browser and upload to GitHub.)
+## Screenshots
+
+![Home Page](home.png)  
+
+![Question Page](question.png)  
+
+![Result Page](result.png)
 
 Thank you, Engr. Hassan Yau Hamisu
