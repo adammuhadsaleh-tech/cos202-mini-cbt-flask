@@ -20,12 +20,12 @@ class Question:
 class MiniCBT:
     """Manages the entire test using Queue (FIFO) for question order."""
     def __init__(self):
-    questions_list = self._create_questions()
-    self.pending_questions: deque = deque(questions_list)
-    self.current_question: Optional[Question] = None
-    self.score: int = 0
-    self.total: int = len(questions_list)
-    self.submission_time: Optional[datetime] = None
+        questions_list = self._create_questions()
+        self.pending_questions: deque = deque(questions_list)
+        self.current_question: Optional[Question] = None
+        self.score: int = 0
+        self.total: int = len(questions_list)
+        self.submission_time: Optional[datetime] = None
 
     def _create_questions(self):
         """5 course-relevant questions (local university + Python/Flask)."""
