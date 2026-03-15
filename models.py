@@ -22,6 +22,7 @@ class MiniCBT:
     def __init__(self):
 # Load the questions into the queue
         qs = self._create_questions()
+# Use deque for FIFO queue to process questions in order
         self.pending_questions: deque = deque(questions_list)
         self.current_question: Optional[Question] = None
         self.score: int = 0
