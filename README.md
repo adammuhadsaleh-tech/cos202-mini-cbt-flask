@@ -10,7 +10,7 @@ This is a simple Computer-Based Test (CBT) engine built with Python and Flask fo
 - **Data Structures**: `deque` from `collections` for FIFO queue to manage question order.
 - **Datetime**: `datetime.now()` to timestamp the test submission.
 - **Flask**: Routes for home (`/`), start (`/start`), question (`/question`), submit (`/submit`), and result (`/result`).
-- 5 questions related to our university and course topics.
+- 6 questions related to our university, course topics, and Nigeria.
 
 The test runs in the browser, shows questions one by one, calculates score, and displays result with percentage and timestamp.
 
