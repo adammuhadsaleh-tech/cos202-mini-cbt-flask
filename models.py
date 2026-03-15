@@ -54,12 +54,12 @@ class MiniCBT:
             Question(
                 "Which Flask decorator defines routes?",
                 {"A": "@route", "B": "@app.route", "C": "@get", "D": "@post"},
-                "B
+                "B"
+           ),
 	    Question(
    		 "What is the capital of Nigeria?",
    		 {"A": "Lagos", "B": "Abuja", "C": "Kano", "D": "Kaduna"},
    		 "B"
-	    ),
             ),
             Question(
                 "What does the datetime module help us do in this project?",
