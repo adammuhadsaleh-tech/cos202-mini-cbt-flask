@@ -22,10 +22,10 @@ class MiniCBT:
     def __init__(self):
 # Load the questions into the queue
         qs = self._create_questions()
-        self.pending_questions: deque = deque(qs)
+        self.pending_questions: deque = deque(questions_list)
         self.current_question: Optional[Question] = None
         self.score: int = 0
-        self.total: int = len(qs)
+        self.total: int = len(questions_list)
         self.submission_time: Optional[datetime] = None
 
     def _create_questions(self):
