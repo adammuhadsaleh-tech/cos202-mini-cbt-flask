@@ -11,6 +11,7 @@ This is a simple Computer-Based Test (CBT) engine built with Python and Flask fo
 - **Datetime**: `datetime.now()` to timestamp the test submission.
 - **Flask**: Routes for home (`/`), start (`/start`), question (`/question`), submit (`/submit`), and result (`/result`).
 - 6 questions related to our university, course topics, and Nigeria.
+- Includes detailed choices for better learning.
 
 The test runs in the browser, shows questions one by one, calculates score, and displays result with percentage and timestamp.
 
