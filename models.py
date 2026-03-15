@@ -58,7 +58,7 @@ class MiniCBT:
            ),
 	    Question(
    		 "What is the capital of Nigeria?",
-   		 {"A": "Lagos", "B": "Abuja", "C": "Kano", "D": "Kaduna"},
+   		 {"A": "Lagos (economic hub)", "B": "Abuja", "C": "Kano", "D": "Kaduna"},
    		 "B"
             ),
             Question(
